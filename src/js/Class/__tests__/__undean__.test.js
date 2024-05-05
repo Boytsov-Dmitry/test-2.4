@@ -1,4 +1,4 @@
-import MainCharacter from '../Undead';
+import Undead from '../Undead;';
 
 test('тест персонажа Undead', () => {
     const player = new Undead('aaa');
