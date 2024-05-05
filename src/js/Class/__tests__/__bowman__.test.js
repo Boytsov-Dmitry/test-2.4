@@ -1,4 +1,4 @@
-import MainCharacter from '../Bowman';
+import Bowman from '../Bowman;';
 
 test('тест персонажа bowman', () => {
     const player = new Bowman('aaa');
