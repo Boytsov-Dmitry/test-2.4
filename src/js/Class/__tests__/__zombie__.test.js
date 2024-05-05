@@ -1,4 +1,4 @@
-import Zombie from '../Zombie;';
+import Zombie from '../Zombie';
 
 test('тест персонажа Zombie', () => {
     const player = new Zombie('aaa');
