@@ -1,4 +1,4 @@
-import MainCharacter from '../Swordsman';
+import Swordsman from '../Swordsman;';
 
 test('тест персонажа Swordsman', () => {
     const player = new Swordsman('aaa');
