@@ -1,5 +1,4 @@
 import Character from '../MainCharacter';
-import MainCharacter from '../MainCharacter';
 
 test('на наличие ошибки в имени', () => {
     expect(() => new Character('g', 'Daemon')).toThrow(new Error('Не верно'));
