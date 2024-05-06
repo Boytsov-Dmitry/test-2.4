@@ -1,7 +1,7 @@
 import Swordsman from '../Swordsman';
 
 test('тест персонажа Swordsman', () => {
-    const player = new Swordsman('aaa');
+    const player = new Swordsman('aaa', 'Swordsman');
     const correctVersion = {
         name: 'aaa',
         type: 'Swordsman',
