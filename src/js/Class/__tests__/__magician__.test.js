@@ -1,7 +1,7 @@
 import Magician from '../Magician';
 
 test('тест персонажа Magician', () => {
-    const player = new Magician('aaa');
+    const player = new Magician('aaa', 'Magician');
     const correctVersion = {
         name: 'aaa',
         type: 'Magician',
