@@ -1,7 +1,7 @@
 import Undead from '../Undead';
 
 test('тест персонажа Undead', () => {
-    const player = new Undead('aaa');
+    const player = new Undead('aaa', 'Undead');
     const correctVersion = {
         name: 'aaa',
         type: 'Undead',
