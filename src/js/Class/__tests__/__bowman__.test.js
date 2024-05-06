@@ -1,7 +1,7 @@
 import Bowman from '../Bowman';
 
 test('тест персонажа bowman', () => {
-    const player = new Bowman('aaa');
+    const player = new Bowman('aaa', 'Bowman');
     const correctVersion = {
         name: 'aaa',
         type: 'Bowman',
